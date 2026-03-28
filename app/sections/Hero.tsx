@@ -46,7 +46,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-lg sm:text-xl text-gray-300 mb-4 max-w-2xl mx-auto"
         >
-          Olivia Pérez y equipo • 15+ años resolviendo trámites SAT, IMSS y apertura de empresas
+          Olivia Pérez y equipo • 5+ años resolviendo trámites SAT, IMSS y apertura de empresas
         </motion.p>
 
         <motion.p

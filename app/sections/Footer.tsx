@@ -30,7 +30,7 @@ export function Footer() {
               Asesoría <span className="text-accent">Sanpé</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
-              Especialistas en gestoría legal y administrativa en Querétaro. Más de 15 años ayudando a empresas y personas con sus trámites gubernamentales.
+              Especialistas en gestoría legal y administrativa en Querétaro. Más de 5 años ayudando a empresas y personas con sus trámites gubernamentales.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
@@ -88,13 +88,13 @@ export function Footer() {
               <li>
                 <a href="tel:+524421234567" className="flex items-center gap-3 text-gray-400 hover:text-accent transition-colors text-sm">
                   <Phone className="w-5 h-5 text-accent" />
-                  442 123 4567
+                  441 115 3676
                 </a>
               </li>
               <li>
                 <a href="mailto:contacto@asesoriasanpe.com.mx" className="flex items-center gap-3 text-gray-400 hover:text-accent transition-colors text-sm">
                   <Mail className="w-5 h-5 text-accent" />
-                  contacto@asesoriasanpe.com.mx
+                  lic.oliviape@gmail.com
                 </a>
               </li>
             </ul>

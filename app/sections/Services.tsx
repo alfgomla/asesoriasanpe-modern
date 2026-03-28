@@ -35,7 +35,7 @@ export function Services() {
             Soluciones integrales para tu negocio
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-            Especialistas en trámites gubernamentales con más de 15 años de experiencia en Querétaro
+            Especialistas en trámites gubernamentales con más de 5 años de experiencia en Querétaro
           </p>
         </ScrollReveal>
 
