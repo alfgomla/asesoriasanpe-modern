@@ -106,6 +106,17 @@ export function Footer() {
           <p className="text-gray-500 text-sm">
             © 2024 Asesoría Sanpé. Todos los derechos reservados.
           </p>
+          {/* Tu firma como desarrollador */}
+          <p className="text-sm text-white/40">
+            <a 
+              href="https://alfgomla.github.io/alfgomla/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-accent transition-colors font-medium"
+            >
+              Designed & Developed
+            </a>
+          </p>
           <div className="flex gap-6"> 
             {footerLinks.legal.map((link) => (
               <a key={link.label} href={link.href} className="text-gray-500 hover:text-accent text-sm transition-colors">
