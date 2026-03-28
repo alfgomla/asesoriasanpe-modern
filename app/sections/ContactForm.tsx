@@ -73,7 +73,8 @@ export function ContactForm() {
         <div className="grid lg:grid-cols-5 gap-12 max-w-6xl mx-auto">
           {/* Form */}
           <div className="lg:col-span-3">
-            <form onSubmit={handleSubmit} className="bg-white rounded-2xl shadow-xl p-8">
+                          {/* onSubmit={handleSubmit}  agregar a form si se desea configurar por Ajax*/}
+            <form action="https://formspree.io/f/xzdkebve" method="POST" className="bg-white rounded-2xl shadow-xl p-8">
               <div className="grid md:grid-cols-2 gap-6 mb-6">
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -85,7 +86,7 @@ export function ContactForm() {
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all"
-                    placeholder="Tu nombre"
+                    placeholder="Tu nombre" name="name"
                   />
                 </div>
                 <div>
@@ -98,7 +99,7 @@ export function ContactForm() {
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all"
-                    placeholder="tu@email.com"
+                    placeholder="tu@email.com" name="email"
                   />
                 </div>
               </div>
@@ -114,7 +115,7 @@ export function ContactForm() {
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all"
-                    placeholder="442 123 4567"
+                    placeholder="442 123 4567" name="Telefono"
                   />
                 </div>
                 <div>
@@ -122,6 +123,7 @@ export function ContactForm() {
                     Servicio de interés
                   </label>
                   <select
+                    name="Servicio"
                     value={formData.service}
                     onChange={(e) => setFormData({ ...formData, service: e.target.value })}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all bg-white"
@@ -143,7 +145,7 @@ export function ContactForm() {
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all resize-none"
-                  placeholder="Cuéntanos qué necesitas..."
+                  placeholder="Cuéntanos qué necesitas..." name="message" required
                 />
               </div>
 
@@ -177,6 +179,7 @@ export function ContactForm() {
                 )}
               </button>
             </form>
+
           </div>
 
           {/* Contact Info */}
@@ -207,7 +210,7 @@ export function ContactForm() {
 
             {/* Quick WhatsApp */}
             <a
-              href="https://wa.me/524421234567?text=Hola%20Olivia,%20me%20interesa%20una%20asesoría"
+              href="https://wa.me/524411153676?text=Hola%20Olivia,%20me%20interesa%20una%20asesoría"
               target="_blank"
               rel="noopener noreferrer"
               className="block bg-green-500 hover:bg-green-600 text-white rounded-2xl p-6 transition-colors"
