@@ -186,17 +186,17 @@ export function ContactForm() {
               <p className="text-gray-300 mb-6">Especialista en gestoría legal y administrativa</p>
               
               <div className="space-y-4">
-                <a href="tel:+524421234567" className="flex items-center gap-3 hover:text-accent transition-colors">
+                <a href="tel:+524411153676" className="flex items-center gap-3 hover:text-accent transition-colors">
                   <Phone className="w-5 h-5 text-accent" />
-                  <span>442 123 4567</span>
+                  <span>441 115 3676</span>
                 </a>
-                <a href="mailto:contacto@asesoriasanpe.com.mx" className="flex items-center gap-3 hover:text-accent transition-colors">
+                <a href="mailto:lic.oliviape@gmail.com" className="flex items-center gap-3 hover:text-accent transition-colors">
                   <Mail className="w-5 h-5 text-accent" />
-                  <span className="text-sm">contacto@asesoriasanpe.com.mx</span>
+                  <span className="text-sm">lic.oliviape@gmail.com</span>
                 </a>
                 <div className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-accent flex-shrink-0" />
-                  <span className="text-sm">Centro Histórico, Querétaro, Qro.</span>
+                  <span className="text-sm">Ezequiel Montes, Querétaro, Qro.</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Clock className="w-5 h-5 text-accent" />
